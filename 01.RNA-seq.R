@@ -698,6 +698,6 @@ draw(ht,heatmap_legend_side='left',annotation_legend_side='left')
 dev.off()
 
 ################################################################################
-setwd('E:\\项目\\2.滕雁波\\10.多组学联合分析-修饰\\03.results')
+setwd('03.results')
 save.image(paste0('02.RNAseq.',Sys.Date(),'.RData'))
 ################################################################################
